@@ -1,10 +1,21 @@
+* {
+    background-color: bisque;
+}
+
 h1,
 h2 {
     font-family: Arial, Geneva, Tahoma, sans-serif;
+    outline: 3px groove;
+    width: max-content;
 }
 
 p,
 ul,
 ol {
     font-family: Georgia, "Times New Roman", Garamond, serif;
+    width: auto;
+}
+
+img {
+    border-inline: 8px double purple;
 }
