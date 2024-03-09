@@ -1,3 +1,10 @@
-h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+h1,
+h2 {
+    font-family: Arial, Geneva, Tahoma, sans-serif;
+}
+
+p,
+ul,
+ol {
+    font-family: Georgia, "Times New Roman", Garamond, serif;
 }
