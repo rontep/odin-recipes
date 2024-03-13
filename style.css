@@ -7,7 +7,6 @@ h1 {
     outline: 3px groove;
     width: max-content;
     padding: 24px;
-    margin: 8px auto;
 }
 
 p,
@@ -23,8 +22,8 @@ img {
 
 .recipe-links {
     display: flex;
-    padding: 8px;
-    justify-content: space-around;
+    padding: inherit;
+    justify-content: space-between;
 }
 
 .single-recipe,
@@ -34,16 +33,16 @@ img {
 
 .single-recipe {
     background-color: cadetblue;
-    padding: 8px;
+    padding: 10px;
     height: 500px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px dashed palegreen;
 }
 
 .home-img {
     max-height: 400px;
     height: fit-content;
-}
-
-.bottom-link {
-    margin-bottom: 1px;
 }
