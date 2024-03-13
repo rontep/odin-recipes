@@ -2,11 +2,12 @@
     background-color: bisque;
 }
 
-h1,
-h2 {
+h1 {
     font-family: Arial, Geneva, Tahoma, sans-serif;
     outline: 3px groove;
     width: max-content;
+    padding: 24px;
+    margin: 8px auto;
 }
 
 p,
@@ -17,5 +18,32 @@ ol {
 }
 
 img {
-    border-inline: 8px double purple;
+    border: 2px solid purple;
+}
+
+.recipe-links {
+    display: flex;
+    padding: 8px;
+    justify-content: space-around;
+}
+
+.single-recipe,
+.home-img {
+    width: 400px;
+}
+
+.single-recipe {
+    background-color: cadetblue;
+    padding: 8px;
+    height: 500px;
+    display: block;
+}
+
+.home-img {
+    max-height: 400px;
+    height: fit-content;
+}
+
+.bottom-link {
+    margin-bottom: 1px;
 }
