@@ -39,6 +39,7 @@ img {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
     border: 1px dashed palegreen;
 }
 
